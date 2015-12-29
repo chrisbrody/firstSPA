@@ -66,7 +66,12 @@
 	width: 300px;
 	height: 15px;
 	background-color: red;
-	z-index: 1;
+	z-index: 3;
+	cursor: pointer;
+	border-radius: 5px 0 0 0;
+}
+.spa-shell-chat:hover {
+	background-color: #a00;
 }
 .spa-shell-modal {
 	margin-top: -200px;
